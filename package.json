@@ -68,11 +68,11 @@
       "lib",
       "gulpfile.babel.js"
     ],
-    "env": [
-      "SLACK_API_TOKEN",
-      "SLACK_SUBDOMAIN",
-      "GOOGLE_CAPTCHA_SECRET",
-      "GOOGLE_CAPTCHA_SITEKEY"
-    ]
+    "env": {
+      "SLACK_API_TOKEN": "@ic-slack-token",
+      "SLACK_SUBDOMAIN": "intentionalchat",
+      "GOOGLE_CAPTCHA_SECRET": "@ic-captcha-secret",
+      "GOOGLE_CAPTCHA_SITEKEY": "6LfYwykUAAAAAFl_8SvXeR2odukCs7QLp0sDYP76"
+    }
   }
 }
